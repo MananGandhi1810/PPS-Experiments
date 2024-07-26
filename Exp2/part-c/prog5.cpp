@@ -4,6 +4,6 @@
 using namespace std;
 int main()
 {
-    system("shutdonw /s");
+    system("shutdown /s");
     return 0;
 }
