@@ -1,5 +1,5 @@
 /*
-Little Yasn is a movie fan. He likes watching different kinds of movies from drama, comedy to horror movies.
+Little Yash is a movie fan. He likes watching different kinds of movies from drama, comedy to horror movies.
 He is planning to watch a movie this weekend.
 There are N movies to watch during this weekend. Each movie can be characterized by 2 interger li and ri denoting length and rating respectively.
 Yash wants to watch exactly one movie with the maximal value of Li x Ri.
