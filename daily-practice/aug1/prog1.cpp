@@ -1,4 +1,8 @@
-// Assume that Aashna and Mahek are playing a dice game, in one turn each one of them rolls a dice. A turn is said to be good if the sum of 2 numbers on the dice is greater than 6. Find whether the particular turn is good or bad.
+/*
+Saif and Kareena are playing with dice. In one turn, both of them roll their dice at once.
+They consider a turn to be good if the sum of the numbers on their dice is greater than 6.
+Given that in a particular turn Saif and Kareena got X and Y on their respective dice, find whether the turn was good.
+*/
 
 #include <iostream>
 
