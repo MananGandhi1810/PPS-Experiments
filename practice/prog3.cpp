@@ -42,8 +42,8 @@ int main()
         }
         i++;
     }
-    cout << "Vowels: " << vowels << endl;
-    cout << "Consonants: " << consonants << endl;
-    cout << "Spaces: " << spaces << endl;
-    cout << "Special Characters: " << special << endl;
+    std::cout << "Vowels: " << vowels << endl;
+    std::cout << "Consonants: " << consonants << endl;
+    std::cout << "Spaces: " << spaces << endl;
+    std::cout << "Special Characters: " << special << endl;
 }
