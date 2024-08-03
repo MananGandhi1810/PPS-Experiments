@@ -10,7 +10,9 @@ int main()
     cout << "3. Circle" << endl;
     cout << "Enter shape: ";
     cin >> choice;
-    if (choice == 1)
+    switch (choice)
+    {
+    case 1:
     {
         float base, height, area;
         cout << "Enter base: ";
@@ -19,8 +21,9 @@ int main()
         cin >> height;
         area = 0.5 * base * height;
         cout << "Area: " << area;
+        break;
     }
-    else if (choice == 2)
+    case 2:
     {
         float length, breadth, area;
         cout << "Enter length: ";
@@ -29,14 +32,17 @@ int main()
         cin >> breadth;
         area = length * breadth;
         cout << "Area: " << area;
+        break;
     }
-    else if (choice == 3)
+    case 3:
     {
         float radius, area;
         cout << "Enter radius: ";
         cin >> radius;
         area = 3.14 * radius * radius;
         cout << "Area: " << area;
+        break;
+    }
     }
     cout << endl;
     return 0;
