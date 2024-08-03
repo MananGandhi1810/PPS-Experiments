@@ -7,23 +7,30 @@ int main()
     char letter = 'a';
     cout << "Enter a letter: ";
     cin >> letter;
-    switch (letter)
+    if (!((int)letter >= 65 && (int)letter <= 90) || !((int)letter >= 97 && (int)letter <= 122))
     {
-    case 'a':
-    case 'e':
-    case 'i':
-    case 'o':
-    case 'u':
-    case 'A':
-    case 'E':
-    case 'I':
-    case 'O':
-    case 'U':
-        cout << "Vowel" << endl;
-        break;
+        cout << "Not an alphabet";
+    }
+    else
+    {
+        switch (letter)
+        {
+        case 'a':
+        case 'e':
+        case 'i':
+        case 'o':
+        case 'u':
+        case 'A':
+        case 'E':
+        case 'I':
+        case 'O':
+        case 'U':
+            cout << "Vowel" << endl;
+            break;
 
-    default:
-        cout << "Consonant" << endl;
-        break;
+        default:
+            cout << "Consonant" << endl;
+            break;
+        }
     }
 }
