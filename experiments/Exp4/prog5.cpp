@@ -1,5 +1,5 @@
 /*
-Write a program to acppet a nnumber from the user and display if it is Armstrong number.
+Write a program to acppet a number from the user and display if it is Armstrong number.
 */
 #include <iostream>
 #include <math.h>
