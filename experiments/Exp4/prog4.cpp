@@ -9,7 +9,7 @@ int main()
     int n, a = 0, b = 1;
     cout << "Enter n: ";
     cin >> n;
-    for (int i = 0; i <= n; i++)
+    for (int i = 0; i < n; i++)
     {
         cout << a << "\t";
         int temp = a;
