@@ -68,17 +68,20 @@ int main()
     int n = 0;
     cout << "Enter number of users: ";
     cin >> n;
-    Calculations calcs[n];
+    Calculations users[n];
     for (int i = 0; i < n; i++)
     {
-        calcs[i].input();
+        cout << endl
+             << "User " << i + 1 << ": " << endl;
+        users[i].input();
     }
     bool running = true;
     while (running)
     {
         int choice = 0;
         int userNumber = 0;
-        cout << "Enter user number: ";
+        cout << endl
+             << "Enter user number: ";
         cin >> userNumber;
         userNumber--;
         if (userNumber >= n || userNumber < 0)
@@ -95,13 +98,13 @@ int main()
         switch (choice)
         {
         case 1:
-            cout << "Minimum: " << calcs[userNumber].minimum() << endl;
+            cout << "Minimum: " << users[userNumber].minimum() << endl;
             break;
         case 2:
-            cout << "Maximum: " << calcs[userNumber].maximum() << endl;
+            cout << "Maximum: " << users[userNumber].maximum() << endl;
             break;
         case 3:
-            cout << "Average: " << calcs[userNumber].average() << endl;
+            cout << "Average: " << users[userNumber].average() << endl;
             break;
         case 0:
             running = false;
