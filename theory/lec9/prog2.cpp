@@ -73,7 +73,7 @@ int main()
     cout << "Enter number of users: ";
     cin >> n;
     Account accounts[n];
-    cout << "Enter details: ";
+    cout << "Enter details: " << endl;
     for (int i = 0; i < n; i++)
     {
         cout << "Account " << i + 1 << endl;
