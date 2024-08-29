@@ -9,6 +9,20 @@ class Product
   float price;
 
 public:
+  Product()
+  {
+    id = 0;
+    name = "Product 1";
+    quantity = 100;
+    price = 1000;
+  }
+  Product(int i, string n, int q, float p)
+  {
+    id = i;
+    name = n;
+    quantity = q;
+    price = p;
+  }
   void add();
   bool update(int);
   bool canRemove(int);
