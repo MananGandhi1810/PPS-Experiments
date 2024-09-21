@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int celsius = 0, fahrenheit = 0;
-    cout << "Enter tempterature in Celsius: ";
+    cout << "Enter temperature in Celsius: ";
     cin >> celsius;
     fahrenheit = (celsius * 9/5) + 32;
     cout << "Temperature in Fahrenheit: " << fahrenheit << endl;
