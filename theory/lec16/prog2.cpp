@@ -35,7 +35,7 @@ int main()
         break;
     }
     cout << "Result: " << res << endl;
-    return 0;
+    return 0; 
 }
 
 int power(int m, int n)
